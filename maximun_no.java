@@ -18,10 +18,10 @@ public class maximun_no {
          int c=sc.nextInt();
 
 
-         if (a>b) {
+         if (a>b && a>c) {
                  System.out.println("Maximun No Is "+a);   
          }
-        else if(b>c){
+        else if(b>c && b>a){
                    System.out.println("Maximun No Is "+b);
         }
         else{
