@@ -1,6 +1,6 @@
 package Arrays;
 import java.util.*;
-public class arrOfName {
+public class lenOfName {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter size of an array :");
@@ -15,6 +15,14 @@ public class arrOfName {
             System.out.print(names[i]+",");
         }
         System.out.println("]");
+
+         int total = 0;
+        for (int i = 0; i < size; i++) {
+             int a =   names[i].length();
+             total +=a;
+        }
+        System.out.println("Total length of array elements :"+total);
+
 
  sc.close();}
 }

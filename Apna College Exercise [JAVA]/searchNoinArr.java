@@ -1,4 +1,3 @@
-package Arrays;
 // linear search technique
 
 import java.util.*;
